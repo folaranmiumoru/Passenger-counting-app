@@ -7,8 +7,7 @@ let count = 0;
 
 
 function increment() {
-    count+=1  // INSTEAD OF THIS count = count + 1 D0:
-    //instead of  countEl.innerText = count  DO:
+    count+=1  
     countEl.textContent = count
 }
 
